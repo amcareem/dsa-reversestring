@@ -1,0 +1,8 @@
+public class TestReverseString {
+    public static void main(String[] args) {
+        String str = "Hello, world!";
+        System.out.println("Original string: " + str);
+        String reversedStr = ReverseString.reverse(str);
+        System.out.println("Reversed string: " + reversedStr);
+    }
+}
